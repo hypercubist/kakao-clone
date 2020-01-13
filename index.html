@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/9e6f42b446.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -42,19 +42,21 @@
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
+        <li class="chats__chat friend">
           <a href="chat.html">
-            <div class="chat__column">
-              <img src="images/avatar1.jpg" class="chat__avatar" />
-              <div class="chat__content">
-                <span class="chat__username">hypercubist</span>
-                <span class="chat__preview">awesome!</span>
+            <div class="friend__column">
+              <img src="images/avatar1.jpg" class="g-avatar avatar-md" />
+              <div class="friend__content">
+                <span class="friend__name">joker</span>
+                <span class="friend__bottom-text">why so serius?</span>
               </div>
             </div>
-            <div class="chat__column">
+            <div class="friend__column">
+              <span class="chat__timestamp">
+                March 8
+              </span>
+            </div>
           </a>
-            <span class="timestamp">Yesterday</span>
-          </div>
         </li>
       </ul>
     </main>
@@ -67,6 +69,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
